@@ -4,137 +4,147 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81ad8bc0-50ed-4464-a144-58614aec9cbf" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-generator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-generator/src/main/java/com/xxxx/generator/CodeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/YebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/CaptchaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/Swagger2Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/security/JwtAuthencationTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/security/JwtTokenUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/security/RestAuthorizationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/security/RestfulAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/AdminRoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/AppraiseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/CaptchaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/DepartmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/EmployeeEcController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/EmployeeRemoveController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/EmployeeTrainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/JoblevelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/MailLogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/MenuRoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/NationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/OplogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/PoliticsStatusController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/PositionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/SalaryAdjustController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/SalaryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/SysMsgContentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/SysMsgController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/AdminMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/AdminRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/AppraiseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/DepartmentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/EmployeeEcMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/EmployeeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/EmployeeRemoveMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/EmployeeTrainMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/JoblevelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/MailLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/MenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/MenuRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/NationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/OplogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/PoliticsStatusMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/PositionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/SalaryAdjustMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/SalaryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/SysMsgContentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/SysMsgMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/AdminLoginParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/AdminRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Appraise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/EmployeeEc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/EmployeeRemove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/EmployeeTrain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Joblevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/MailLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/MenuRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Nation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Oplog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/PoliticsStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/RespBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Salary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/SalaryAdjust.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/SysMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/SysMsgContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IAdminRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IAdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IAppraiseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IDepartmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IEmployeeEcService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IEmployeeRemoveService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IEmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IEmployeeTrainService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IJoblevelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IMailLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IMenuRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/INationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IOplogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IPoliticsStatusService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IPositionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/ISalaryAdjustService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/ISalaryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/ISysMsgContentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/ISysMsgService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/AdminRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/AppraiseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/DepartmentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/EmployeeEcServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/EmployeeRemoveServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/EmployeeTrainServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/JoblevelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/MailLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/MenuRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/MenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/NationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/OplogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/PoliticsStatusServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/PositionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/SalaryAdjustServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/SalaryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/SysMsgContentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/SysMsgServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/config/application.yml" afterDir="false" />
+    <list default="true" id="81ad8bc0-50ed-4464-a144-58614aec9cbf" name="变更" comment="第一次提交">
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/AdminRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/AppraiseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/DepartmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/EmployeeEcMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/EmployeeRemoveMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/EmployeeTrainMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/JoblevelMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/MailLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/MenuRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/NationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/OplogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/PoliticsStatusMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/PositionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/SalaryAdjustMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/SalaryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/SysMsgContentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/SysMsgMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/YebApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/CaptchaConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/Swagger2Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/security/JwtAuthencationTokenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/security/JwtTokenUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/security/RestAuthorizationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/security/RestfulAccessDeniedHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/config/security/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/AdminRoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/AppraiseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/CaptchaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/DepartmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/EmployeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/EmployeeEcController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/EmployeeRemoveController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/EmployeeTrainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/JoblevelController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/MailLogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/MenuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/MenuRoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/NationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/OplogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/PoliticsStatusController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/PositionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/SalaryAdjustController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/SalaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/SysMsgContentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/controller/SysMsgController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/AdminMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/AdminRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/AppraiseMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/DepartmentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/EmployeeEcMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/EmployeeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/EmployeeRemoveMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/EmployeeTrainMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/JoblevelMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/MailLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/MenuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/MenuRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/NationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/OplogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/PoliticsStatusMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/PositionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/RoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/SalaryAdjustMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/SalaryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/SysMsgContentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/mapper/SysMsgMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/AdminLoginParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/AdminRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Appraise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/EmployeeEc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/EmployeeRemove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/EmployeeTrain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Joblevel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/MailLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/MenuRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Nation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Oplog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/PoliticsStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/RespBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/Salary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/SalaryAdjust.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/SysMsg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/pojo/SysMsgContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IAdminRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IAdminService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IAppraiseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IDepartmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IEmployeeEcService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IEmployeeRemoveService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IEmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IEmployeeTrainService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IJoblevelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IMailLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IMenuRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IMenuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/INationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IOplogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IPoliticsStatusService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IPositionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/IRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/ISalaryAdjustService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/ISalaryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/ISysMsgContentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/ISysMsgService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/AdminRoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/AdminServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/AppraiseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/DepartmentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/EmployeeEcServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/EmployeeRemoveServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/EmployeeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/EmployeeTrainServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/JoblevelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/MailLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/MenuRoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/MenuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/NationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/OplogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/PoliticsStatusServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/PositionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/RoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/SalaryAdjustServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/SalaryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/SysMsgContentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/xxxx/server/service/impl/SysMsgServiceImpl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +186,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/JetBrains/yeb",
+    "last_opened_file_path": "D:/JetBrains/SSM2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -184,17 +194,17 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "spring.configuration.checksum": "a3172a5285731ea5c105b4f65a1a7357"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JetBrains\yeb\yeb-server\src\main\java\com\xxxx\server\config" />
       <recent name="D:\JetBrains\yeb\yeb-server\src\main\java\com\xxxx\server" />
+      <recent name="D:\JetBrains\yeb\yeb-server\src\main\resources" />
+      <recent name="D:\JetBrains\yeb\yeb-server\src\main\java\com\xxxx\server\config" />
       <recent name="D:\JetBrains\yeb\yeb-server\src\main\java\com\xxxx\server\controller" />
       <recent name="D:\JetBrains\yeb\yeb-server\src\main\java\com\xxxx\server\mapper" />
-      <recent name="D:\JetBrains\yeb\yeb-server\src\main\java\com\xxxx\server\pojo" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.YebApplication">
@@ -244,8 +254,17 @@
       <workItem from="1663919204268" duration="692000" />
       <workItem from="1663936457782" duration="7302000" />
       <workItem from="1663987547600" duration="14000" />
-      <workItem from="1663995109162" duration="3275000" />
+      <workItem from="1663995109162" duration="3534000" />
+      <workItem from="1664001697419" duration="15661000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1664001510646</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664001510647</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,5 +280,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
   </component>
 </project>
