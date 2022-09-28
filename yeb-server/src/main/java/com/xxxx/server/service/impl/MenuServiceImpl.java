@@ -1,6 +1,7 @@
 package com.xxxx.server.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.xxxx.server.AdminUtils;
 import com.xxxx.server.mapper.MenuMapper;
 import com.xxxx.server.pojo.Admin;
 import com.xxxx.server.pojo.Menu;
@@ -35,7 +36,7 @@ public class MenuServiceImpl extends ServiceImpl<MenuMapper, Menu> implements IM
          */
     @Override
     public List<Menu> getMenusByAdminId() {
-        Integer adminID = ((Admin) SecurityContextHolder.getContext().getAuthentication().getPrincipal()).getId();
+        Integer adminID = AdminUtils.getCurrentAdmin().getId();
         ValueOperations<String,Object> valueOperations= redisTemplate.opsForValue();
         //从redis获取菜单属性
         List<Menu> menus = ((List<Menu>) valueOperations.get("menu_" + adminID));
@@ -51,5 +52,11 @@ public class MenuServiceImpl extends ServiceImpl<MenuMapper, Menu> implements IM
     @Override
     public List<Menu> getMenusWithRole() {
         return menuMapper.getMenusWithRole();
+    }
+
+    //查询所有菜单
+    @Override
+    public List<Menu> getAllMenus() {
+        return menuMapper.getAllMenus();
     }
 }

@@ -14,4 +14,13 @@
         id, adminId, rid
     </sql>
 
+    <!--更新操作员角色
+    先清空，然后在集体的添加
+    -->
+    <update id="updateAdminRole">
+        insert into t_admin_role(adminId,rid) values
+        <foreach collection="rids" item="rid" separator=",">
+            (#{adminId},#{rid})
+        </foreach>
+    </update>
 </mapper>
