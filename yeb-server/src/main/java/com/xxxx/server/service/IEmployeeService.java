@@ -6,6 +6,7 @@ import com.xxxx.server.pojo.RespBean;
 import com.xxxx.server.pojo.RespPageBean;
 
 import java.time.LocalDate;
+import java.util.List;
 
 /**
  * <p>
@@ -30,4 +31,6 @@ public interface IEmployeeService extends IService<Employee> {
     RespBean maxWorkId();
     //添加员工
     RespBean insertEmployee(Employee employee);
+    //查询员工
+    List<Employee> getEmployee(Integer id);
 }

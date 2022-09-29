@@ -7,6 +7,7 @@ import com.xxxx.server.pojo.Employee;
 import io.lettuce.core.dynamic.annotation.Param;
 
 import java.time.LocalDate;
+import java.util.List;
 
 /**
  * <p>
@@ -28,5 +29,7 @@ public interface EmployeeMapper extends BaseMapper<Employee> {
     IPage<Employee> getEmployeeByPage(Page<Employee> page,
                                       @Param("employee") Employee employee,
                                       @Param("beginDateScope") LocalDate[] beginDateScope);
+    //查询员工
+    List<Employee> getEmployee(Integer id);
 }
 
