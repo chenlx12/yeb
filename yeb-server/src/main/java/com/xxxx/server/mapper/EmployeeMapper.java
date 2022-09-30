@@ -31,5 +31,7 @@ public interface EmployeeMapper extends BaseMapper<Employee> {
                                       @Param("beginDateScope") LocalDate[] beginDateScope);
     //查询员工
     List<Employee> getEmployee(Integer id);
+    //查询账套
+    IPage<Employee> getEmployeeWithSalary(Page<Employee> page);
 }
 

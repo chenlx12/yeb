@@ -1,0 +1,64 @@
+server:
+  # 端口
+  port: 8082
+spring:
+  # 邮件配置
+  mail:
+    # 邮件服务器地址
+    host: smtp.qq.com
+    # 协议
+    protocol: smtp
+    # 编码格式
+    default-encoding: utf-8
+    # 授权码（在邮箱开通服务时获取）
+    password: egjxzamufohjbahc
+    # 发送者邮箱地址
+    username: 1486699128@qq.com
+    # 端口（不同邮箱端口号不同）
+    #    port: 465
+    properties:
+      mail:
+        stmp:
+          #          port: 465
+          auth: true
+          #设置是否需要验证，如果为true，那么用户名和密码是必须的，如果是false，可以不设置用户名和密码，这也得看对接平台是否支持无密码登陆
+          starttls:
+            #是对纯文本通信协议的扩展，它提供一种方式将纯文本连接升级为加密连接（TLS或SSL），而不是另外使用一个端口作加密通道
+            enable: true
+            required: true
+          ssl:
+            enable: true
+            required: true
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+            port: 465
+      # rabbitmq配置
+  rabbitmq:
+    # 用户名
+    username: yeb
+    # 密码
+    password: root
+    # 服务器地址
+    host: 192.168.121.131
+    # 端口
+    port: 5672
+    listener:
+      simple:
+        # 手动确认
+        acknowledge-mode: manual
+  # Redis配置
+  redis:
+    timeout: 10000ms               # 连接超时时间
+    host: 192.168.121.131          # Redis服务器地址
+    port: 6379                     # Redis服务器端口
+    database: 1                    # 选择哪个库，默认0库
+    password: root
+    lettuce:
+      pool:
+        max-active: 1024                    # 最大连接数，默认 8
+        max-wait: 10000ms                   # 最大连接阻塞等待时间，单位毫秒，默认 -1
+        max-idle: 200                       # 最大空闲连接，默认 8
+        min-idle: 5                         # 最小空闲连接，默认 0
+
+
+

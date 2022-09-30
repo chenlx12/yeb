@@ -149,6 +149,10 @@ public class Employee implements Serializable {
     @ApiModelProperty(value = "工资账套ID")
     private Integer salaryId;
 
+    @ApiModelProperty(value = "工资账套")
+    @TableField(exist = false)
+    private Salary salary;
+
     @ApiModelProperty(value = "民族")
     @TableField(exist = false)
     @ExcelEntity(name = "民族")

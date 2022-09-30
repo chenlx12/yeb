@@ -48,6 +48,20 @@ spring:
         max-idle: 200
         #最小空闲连接
         min-idle: 5
+  # rabbitmq配置
+  rabbitmq:
+    # 用户名
+    username: yeb
+    # 密码
+    password: root
+    # 服务器地址
+    host: 192.168.121.131
+    # 端口
+    port: 5672
+    # 消息失败回调
+    publisher-returns: true
+    #消息确认回调
+    publisher-confirm-type: correlated
 
 # Mybatis-plus配置
 mybatis-plus:

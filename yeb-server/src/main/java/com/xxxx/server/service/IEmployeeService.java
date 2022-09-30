@@ -33,4 +33,6 @@ public interface IEmployeeService extends IService<Employee> {
     RespBean insertEmployee(Employee employee);
     //查询员工
     List<Employee> getEmployee(Integer id);
+    //查询账套
+    RespPageBean getEmployeeWithSalary(Integer currentPage, Integer size);
 }
